@@ -1,9 +1,9 @@
 # Deriv Trading Bot
-
+AI SCANNER 
 A self-hosted, visual trading-bot builder on the Deriv WebSocket API. Drag-and-drop
 strategy building with Blockly, an interactive SmartCharts chart, automated strategy
 execution, and dashboard/tutorials.
-
+withdrawal using abepay 
 > **Note:** Unlike the other templates in this repo (Rise/Fall, Accumulators, Digits)
 > which are **Next.js** apps, the bot is a **[Rsbuild](https://rsbuild.dev) + React
 > Router** single-page app. The commands, build output, and environment variables
@@ -14,15 +14,15 @@ execution, and dashboard/tutorials.
 - Node.js 18.18 or later
 
 ## Step 1: Register Your App ID
-
+connect Deriv account 
 1. Log in to your Deriv account and go to the [API Token page](https://app.deriv.com/account/api-token) to create a token with the required scopes.
 2. Navigate to [App Registration](https://developers.deriv.com/dashboard/) and register a new application.
-3. Set the **Redirect URI** to the URL where you will host this app (e.g. `http://localhost:4003` for local development).
+3. Set the **Redirect URI** to the URL where you will host this app (e.g. `http://dbotzone:4003` for local development).
 4. Copy the **App ID** shown after registration — you will need it in the next step.
 
 ## Step 2: Configure `.env`
 
-Copy `.env.example` to `.env` and fill in your values:
+Copy `.token` to `.deriv` and fill in your values:
 
 ```bash
 cp .env.example .env
